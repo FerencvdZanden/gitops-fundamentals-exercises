@@ -2,12 +2,12 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: podinfo
+  name: podinfo-f
 spec:
   template:
     spec:
       containers:
-        - name: podinfod
+        - name: podinfod-f
           env:
             - name: PODINFO_UI_COLOR
               value: "#326ce5"
