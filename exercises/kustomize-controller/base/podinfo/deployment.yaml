@@ -35,7 +35,7 @@ spec:
             - --port=9898
             - --port-metrics=9797
             - --grpc-port=9999
-            - --grpc-service-name=podinfo-s
+            - --grpc-service-name=podinfo-service
             - --level=info
             - --random-delay=false
             - --random-error=false
