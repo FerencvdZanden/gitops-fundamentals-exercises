@@ -5,9 +5,9 @@ metadata:
   name: podinfo-deployment
 spec:
   replicas: 3
-    selector:
-      matchLabels:
-        app: podinfo-f
+  selector:
+    matchLabels:
+      app: podinfo-f
   template:
     spec:
       containers:
