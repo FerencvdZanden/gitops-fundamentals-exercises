@@ -5,7 +5,7 @@ metadata:
   name: podinfo
   namespace: fysicon-ferenc
 spec:
-  serviceAccountName: flux-reconciler
+  serviceAccountName: flux-reconciler-f
   interval: 10m
   targetNamespace: fysicon-ferenc
   chart:
