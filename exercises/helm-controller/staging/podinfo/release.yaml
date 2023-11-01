@@ -42,11 +42,11 @@ spec:
         kubernetes.io/ingress.class: nginx
         cert-manager.io/cluster-issuer: letsencrypt-production
       hosts:
-        - host: ferenca.datalinq-playground.com
+        - host: ferenc.datalinq-playground.com
           paths:
             - path: /
               pathType: ImplementationSpecific
       tls:
         - secretName: podinfo-tls
           hosts:
-            - ferenca.datalinq-playground.com
+            - ferenc.datalinq-playground.com
